@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie wall</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+
+  <body id="body">
+    <button id="myBtn" onclick="CookiePop()">Cookie</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Vul hier je leeftijd in  </p>
+        <input type="number" id="age" required />
+        <button onclick="AgeCheck()">submit</button>
+        <h1 id="verification"></h1>
+      </div>
+    </div>
+  </body>
+</html>
